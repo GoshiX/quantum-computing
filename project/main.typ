@@ -141,7 +141,7 @@ $ H_C_4 = B sum_(k in K) (1 - (sum_(i in T)u_(i k)))^2 $
 
 $ H_C_5 = B sum_(k in K) (1 - (sum_(i in T)n_(i k)))^2 $
 
-$ H_C_6 = B sum_(i in T) sum_(k in K) (u_(i k) + sum_(j in T)x_(j i k) \ - n_(i k) - sum_(p in T)x_(i p k)) "" ^2 $
+$ H_C_6 = B sum_(i in T) sum_(k in K) (u_(i k) + sum_(j in T)x_(j i k) \ - n_(i k) - sum_(j in T)x_(i j k)) "" ^2 $
 
 $ H_C_7 = B sum_(S in PP(T) 2 <= |S| <= |T|) (sum_(k in K)sum_(i, j in S)x_(i j k) \ + sum_(l=0)^(ceil.l log_2 (|S|) ceil.r) 2^l lambda_(l S) - |S|+1) "" ^2 $
 
